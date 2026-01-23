@@ -24,4 +24,4 @@ checkButton = Checkbutton(window,
                             pady=25)
 checkButton.pack()
 
-window.mainloop()
+# window.mainloop()
