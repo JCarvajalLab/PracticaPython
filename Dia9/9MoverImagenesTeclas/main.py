@@ -32,7 +32,7 @@ windows.bind("<Right>",moveRight)
 canvas = Canvas(windows, width=500,height=500)
 canvas.pack()
 
-imagen = PhotoImage(file='C:\\Users\\Deo\\Desktop\\CURSO PYTHON\\Dia9\\9MoverImagenesTeclas\\python.png')
+imagen = PhotoImage(file='python.png')
 miImagen = canvas.create_image(0,0,image=imagen,anchor=NW)
 
 # label = Label(windows, image=imagen)
